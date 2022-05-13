@@ -20,3 +20,7 @@ Proiectul consta in preluarea informatiilor generate de senzorul de distanta ult
 4. System brightness(adaptive)
 
   Luminozitatea sistemului este modificata direct proportional cu luminozitatea ambientala,cuantificata prin valoarea analogica de la un divizor de tensiune cu un fotorezistor si convertita digital cu ajutorul ADC-ului placutei Arduino.
+  
+HC-SR04+ + DHT11
+
+  Utilizarea DHT11 este motivata de calibrarea valorilor generate de senzorul ultrasonic prin utilizarea unei viteze a sunetului variabile datorita conditiilor ambientale(temperatura,umiditate relativa) - formula utilizata este prezenta la https://dronebotworkshop.com/hc-sr04-ultrasonic-distance-sensor-arduino/ si a fost validata prin verificarea cu codul sursa de la view-source:http://www.sengpielaudio.com/calculator-airpressure.htm(se neglijeaza mai multi factori cu contributie mica).
